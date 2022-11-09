@@ -2,9 +2,11 @@ import "./style.css";
 
 function CardGame() {
   return `
-    <article class="card-game">
-      <img class="interrogation" src="./images/interrogation.svg" alt="interrogation">
-    </article>
+    <div class="container">
+      <article class="card-game">
+        <img class="interrogation" src="./images/interrogation.svg" alt="interrogation">
+      </article>
+    </div>
   `;
 }
 

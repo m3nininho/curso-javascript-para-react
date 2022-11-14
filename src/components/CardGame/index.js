@@ -1,10 +1,10 @@
 import "./style.css";
 
-function CardGame() {
-  return `
+function CardGame(icon = "interrogation", alt = "interrogation em pixel art") {
+  return /*html*/ `
     <div class="container">
       <article class="card-game">
-        <img class="interrogation" src="./images/interrogation.svg" alt="interrogation">
+        <img class="interrogation" src="./images/${icon}.svg" alt="${alt}">
       </article>
     </div>
   `;
